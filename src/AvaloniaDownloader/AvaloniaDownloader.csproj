@@ -9,17 +9,17 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Avalonia" Version="11.2.1"/>
-        <PackageReference Include="Avalonia.Desktop" Version="11.2.1"/>
-        <PackageReference Include="Avalonia.Themes.Fluent" Version="11.2.1"/>
-        <PackageReference Include="Avalonia.Fonts.Inter" Version="11.2.1"/>
+        <PackageReference Include="Avalonia" Version="11.2.5" />
+        <PackageReference Include="Avalonia.Desktop" Version="11.2.5" />
+        <PackageReference Include="Avalonia.Themes.Fluent" Version="11.2.5" />
+        <PackageReference Include="Avalonia.Fonts.Inter" Version="11.2.5" />
         <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
-        <PackageReference Include="Avalonia.Diagnostics" Version="11.2.1">
+        <PackageReference Include="Avalonia.Diagnostics" Version="11.2.5">
             <IncludeAssets Condition="'$(Configuration)' != 'Debug'">None</IncludeAssets>
             <PrivateAssets Condition="'$(Configuration)' != 'Debug'">All</PrivateAssets>
         </PackageReference>
         <PackageReference Include="ThingLing.Avalonia.Controls.MessageBox" Version="2.0.0" />
-        <PackageReference Include="YTDLP-Executable" Version="2025.1.26" />
+        <PackageReference Include="YTDLP-Executable" Version="2025.2.19" />
         <PackageReference Include="YTDLP-Wrapper" Version="1.0.0" />
     </ItemGroup>
 

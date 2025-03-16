@@ -18,6 +18,9 @@ public partial class MainWindow : Window
     _engine = new YtDlpEngine();
   }
 
+  public string SelectedValue { get; set; } = "";
+  public string Resolution { get; set; } = "";
+
   private async void Control_OnLoaded(object? sender, RoutedEventArgs e)
   {
     TextUrl.Text = @"https://www.youtube.com/watch?v=Znk5QINe01A";
@@ -57,8 +60,9 @@ public partial class MainWindow : Window
     //ProgressDownload.MarqueeAnimationSpeed = 10;
 
     var formats = await GetVideoFormatsAsync(TextUrl.Text);
-
     CboQuality.ItemsSource = formats;
+
+    //CboQuality.DisplayMemberBinding = formats[0].Resolution; 
     //CboQuality.SelectedValueBinding = CboQuality.SelectedIndex;
     //CboQuality.SelectedIndex = "Resolution";
 
