@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoDownloader", "src\Vide
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YtDlpWrapper.Executable", "src\YtDlpWrapper.Executable\YtDlpWrapper.Executable.csproj", "{68052C17-85AF-4566-AA5D-4719BD159E4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaDownloader", "src\AvaloniaDownloader\AvaloniaDownloader.csproj", "{BB554DCE-89E6-4662-8EAB-B2F17F599F0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{68052C17-85AF-4566-AA5D-4719BD159E4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68052C17-85AF-4566-AA5D-4719BD159E4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68052C17-85AF-4566-AA5D-4719BD159E4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB554DCE-89E6-4662-8EAB-B2F17F599F0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB554DCE-89E6-4662-8EAB-B2F17F599F0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB554DCE-89E6-4662-8EAB-B2F17F599F0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB554DCE-89E6-4662-8EAB-B2F17F599F0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
